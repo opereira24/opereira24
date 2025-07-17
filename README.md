@@ -98,6 +98,7 @@ List<String> list2 = Arrays.asList("a", "b", "c");  // fixed-size
 ```java
 List<String> list = new ArrayList<>();
 List<Integer> numbers = new LinkedList<>();
+Collections.emptyList();    // immutable list
 ```
 
 ## Add elements
@@ -154,6 +155,7 @@ s1.addAll(s2);      // adds elements from s2
 
 ## Initialization
 ```java
+Collections.emptySet();          // immutable set
 Set<String> set = new HashSet<>();
 Set<String> set2 = new TreeSet<>();
 ```
@@ -185,7 +187,6 @@ set.forEach(System.out::println);
 
 ## Common utility methods
 ```java
-Map<String, Integer> map = new HashMap<>();
 map.putIfAbsent("a", 1);
 map.getOrDefault("b", 0);            // returns 0 if key "b" not present
 map.replace("a", 2);                 // replaces value for key "a"
@@ -201,6 +202,7 @@ map.entrySet();
 
 ## Initialization
 ```java
+Collections.emptyMap();                  // immutable map
 Map<String, Integer> map = new HashMap<>();
 Map<String, Integer> map2 = Map.of("a", 1, "b", 2);
 ```
