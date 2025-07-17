@@ -146,6 +146,7 @@ Set<String> s2 = Set.of("b", "c", "d");
 s1.retainAll(s2);   // s1 = [b, c]
 s1.removeAll(s2);   // removes common elements
 s1.addAll(s2);      // adds elements from s2
+s1.isEmpty();       // false
 ```
 
 ## Main Set Types
@@ -187,12 +188,14 @@ set.forEach(System.out::println);
 
 ## Common utility methods
 ```java
+Map<String, Integer> map = new HashMap<>();
 map.putIfAbsent("a", 1);
 map.getOrDefault("b", 0);            // returns 0 if key "b" not present
 map.replace("a", 2);                 // replaces value for key "a"
 map.keySet();
 map.values();
 map.entrySet();
+map.isEmpty();
 ```
 
 ## Main Map Types
