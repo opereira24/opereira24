@@ -12,6 +12,7 @@
 ---
 
 # Arrays
+[☝️](#index)
 
 ## Common utility methods
 ```java
@@ -61,6 +62,7 @@ int[][] matrix2 = {{1, 2}, {3, 4}};
 ---
 
 # List
+[☝️](#index)
 
 ## Common utility methods
 ```java
@@ -132,6 +134,7 @@ list.contains("value");
 ---
 
 # Set
+[☝️](#index)
 
 ## Common utility methods
 ```java
@@ -178,6 +181,7 @@ set.forEach(System.out::println);
 ---
 
 # Map
+[☝️](#index)
 
 ## Common utility methods
 ```java
@@ -226,6 +230,7 @@ map.forEach((k, v) -> System.out.println(k + ": " + v));
 ---
 
 # Non-Primitive Types and Common Methods
+[☝️](#index)
 
 ## String
 ```java
@@ -263,6 +268,7 @@ Character.toUpperCase(c);
 ---
 
 # Streams
+[☝️](#index)
 
 ```java
 List<String> names = List.of("Goncalo", "Ines", "Leonor");
@@ -352,6 +358,7 @@ Map<Integer, List<String>> grouped = names.stream()
 ---
 
 # Switch Expression
+[☝️](#index)
 
 ## Basic switch expression (Java 14+)
 ```java
@@ -370,4 +377,3 @@ String type = switch (value) {
     default -> "High";
 };
 ```
-
