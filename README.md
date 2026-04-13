@@ -6,3 +6,4 @@
 
 ## Future project
 - tactical.data
+- inventorty management
